@@ -1,0 +1,15 @@
+[package]
+name = "TelePoints"
+version = "1.0.0"
+authors = []
+
+[addresses]
+TelePoint='d7e864c4e6350c95955ad62eaacfc53f19eaa1ee2c197a7f9b36284c363889a8'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "devnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]

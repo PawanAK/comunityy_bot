@@ -1,0 +1,233 @@
+body {
+  margin: 0;
+  font-family: "Press Start 2P", cursive;
+}
+
+.landing-page {
+  text-align: center;
+  color: #333;
+}
+
+.header {
+  background: #f8f9fa;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.hero {
+  padding: 100px 20px;
+  background: #007bff;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.cta-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #007bff;
+  background: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.features,
+.pricing,
+.testimonials,
+.statistics,
+.cta {
+  padding: 50px 20px;
+}
+
+.features-grid,
+.pricing-grid,
+.statistics-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.feature-item,
+.pricing-item,
+.testimonial-item,
+.stat-item {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  max-width: 300px;
+}
+
+.footer {
+  background: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.game-section {
+  padding: 50px 20px;
+}
+
+.arcade-input {
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: "Press Start 2P", cursive;
+}
+
+.arcade-button {
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: "Press Start 2P", cursive;
+}
+
+.arcade-info,
+.arcade-result {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.arcade-modal {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 90%; /* Ensure it doesn't take full width */
+  margin: 0 auto; /* Center it horizontally */
+  overflow-y: auto; /* Make it scrollable */
+  max-height: 80vh; /* Limit the height to make it scrollable */
+}
+
+@media (max-width: 600px) {
+  .arcade-modal {
+    padding: 10px; /* Reduce padding for smaller screens */
+    max-width: 95%; /* Slightly increase width for better fit */
+  }
+}
+
+.arcade-item {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.arcade-item img {
+  border-radius: 5px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap */
+  justify-content: center; /* Center items */
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.bg-gray-100 {
+  background-color: #f7fafc;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.shadow-md {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.w-96 {
+  width: 24rem;
+}
+
+.relative {
+  position: relative;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.instructions {
+  background: #222;
+  color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.instructions h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.instructions ol {
+  list-style: decimal inside;
+}
+
+.arcade-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
